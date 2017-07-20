@@ -1,0 +1,2 @@
+Started erlang week2
+Completed watching some tutorials
