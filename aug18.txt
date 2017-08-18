@@ -1,0 +1,3 @@
+Started the edx week 7 in python
+Lectures about pylab and visualization of data
+Completed watching all the videos in this week
