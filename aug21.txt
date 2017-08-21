@@ -1,0 +1,2 @@
+Started the nptel week 2 tutorials of daa
+Tells about the algorithms for searching and sorting 
