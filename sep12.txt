@@ -1,0 +1,3 @@
+
+Going through the python videos provided to us
+I think it may help to understand the scheme implementation using python
