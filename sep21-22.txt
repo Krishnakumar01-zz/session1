@@ -1,0 +1,4 @@
+
+Going through the javascript classes
+Gone through the function modules 
+Getting started with the lis interpreter tomorrow
