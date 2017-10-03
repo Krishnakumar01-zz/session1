@@ -92,9 +92,11 @@ function Procedure(parms,body,env){
 Procedure.prototype.call=function(args){
 	this.args=args;
 	var n=zip(this.parms,this.args);
-	var d=n[0][1];
-	var k=n[0][0]
-	this.env[k]=d;
+	var m=0;
+	for(m=0;m<n.length;m+=1){
+		var d=n[m][1];
+		var k=n[m][0]
+		this.env[k]=d;}
 	var proc=Eval(this.body[0],this.env)
 	var i=1;
 	var args=[];
@@ -167,8 +169,8 @@ function Eval(x,env){
 					args.push(Eval(x[l],env));
 					l+=1;}
 				return proc.apply(this,args);}}}}
-// A simple function of computing circle area which returns 78.5398163
-var program='(define circl-area (lambda (r) (* pi (* r r))))';	
-var program1='(circl-area 5)';
+// A simple function of computing rectangle-area which returns 20
+var program='(define rect-area (lambda (x y) (* x y)))';	
+var program1='(rect-area 4 5)';
 Eval(parse(program));
 console.log(Eval(parse(program1)));
