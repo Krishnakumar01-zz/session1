@@ -1,0 +1,7 @@
+Completed the fifth chapter of the python practice book
+
+gone through about the iterators and iterator tools
+
+the sixth chapter will be started tomorrow
+
+Chapter 5 problems are uploaded in the github
