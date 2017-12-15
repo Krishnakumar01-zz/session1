@@ -1,0 +1,4 @@
+
+Done the webserver program
+Was a little tricy so need to refer to vishnu's program
+Starting the django tutorials as soon as possible
