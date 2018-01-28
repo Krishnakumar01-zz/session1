@@ -1,0 +1,5 @@
+Sir  it is a long time after i was updating because i take a lot of time to understand django and its concepts .
+I had completed 2 applications in django 
+1. Leaderboard
+2. Currecy Converter  
+Sorry for the very late update
